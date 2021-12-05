@@ -5,14 +5,18 @@ using namespace std;
 
 int main(){
     //数値型から文字列
-    int number=100;
-    string s = to_string(number);
+    int i1=100;
+    string str1 = to_string(i1);
+
+    //int to char
+    int i2 = 100;
+    char ch2 = i2 + '0';
     
     //char sからint 
-    char s = '9';
-    int num = s - '0';
+    char ch3 = '9';
+    int i3 = ch3 - '0';
 
     //stringからint
-    string t = "100";
-    int k = stoi(s);
+    string str4 = "100";
+    int i4 = stoi(str4);
 }
